@@ -1,12 +1,12 @@
 import * as Realm from "realm-web";
 
 enum mongodb {
-    collection = "MyDB",
-    service = "mongodb-atlas",
-    database = "GoAuth"
+    collection = "",
+    service = "",
+    database = ""
 }
 
-export const Application = new Realm.App({ id: "google-oauth-wmqlx" });
+export const Application = new Realm.App({ id: "" });
 
 export const Mongo = Application.services.mongodb(mongodb.service);
 
